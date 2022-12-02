@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="ikona" type="image/x-icon" href="ikona.png" >
+<link rel="ikona" href="ikona.png" >
 
 
 
@@ -43,12 +43,15 @@ header{background-color:#1C7CFF  ;background-image: url(https://images.pexels.co
 background-repeat: no-repeat;background-position: center ; padding: 40px;
 margin-top: 5px; margin-bottom: 5px;
 
+
 }
 
 h1{color: #000000 ;background-color:#ffffff ;opacity:0.6 ; white-space: nowrap; overflow: hidden ; text-align: center;
 }
-nav{background-color:#1AA7E8; text-align:center; font-size:24px; margin-top: 5px;
-margin-bottom: 5px; padding: 10px;
+
+
+nav{background-color:#1AA7E8; text-align:center; font-size:24px; 
+margin-top: 5px; margin-bottom: 5px; padding: 10px; 
 }
 nav a{ text-decoration: none ; padding: 10px 
 }
@@ -57,32 +60,33 @@ nav ul{ list-style-type: none ;
 nav li{ display: inline
 }
 
-
-
-main{background-color:#2AF3FF; text-align: left; padding: 20px; 
-margin-top: 5px; margin-bottom: 5px;
+table{margin: auto; width: 30% ;border-collapse: collapse ;
 }
-#br{clear: right;
+th{height: 50px ;width: 100px ;text-align: center;
 }
-
-p{font-size: 24px; font-weight: bold; padding: 20px; margin: 20px;
+td{height: 50px ;width: 100px ;text-align: center;
 }
-img{float: right; max-width: 100%; height: auto;
-}
-#obrazek{border: 1px solid black; margin: 10px;
+caption{font-size: 26px;font-weight: bold;
 }
 
+.center{font-weight:bold; text-decoration:none;  
+}
+.doba{font-size: 20px;
+}
+
+main{background-color:#2AF3FF; margin-top: 5px; margin-bottom: 5px;
+}
 footer{background-color:#1AE8B9 ; margin-top: 5px; margin-bottom: 5px;
- text-align: center ;
+text-align: center ;
 }
 footer a {text-decoration: none; padding: 10px; margin: 10px
 }
 footer ul{ list-style-type: none;
 }
 
-.text{font-size: 24px; font-weight: bold; padding: 20px; margin: 20px;
+.novastranka{page-break-before: always; 
 }
-.navigace{font-weight:bold; 
+.konecnovastranka{page-break-after: always;
 }
 
 
@@ -90,48 +94,81 @@ footer ul{ list-style-type: none;
 </head>
 
 <body>
-
-
 <header>
+
 <h1>Zubní Ordinace<br>
 MUDr.Miroslava Doležalová
 </h1>
+
 </header>
 
 
 
 <nav>
-<div class="navigace">
+
+<div class="center">
 <ul>
 <li>
 <a href="stránka_na_zuby.html">Úvod</a>
 <li>
 <a href="stránka_na_zuby_odkaz_5_sluzby.html">Služby</a>
-<li>
+<li >
 <a href="stránka_na_zuby_odkaz_2_ordinační_doba.html">Ordinační doba</a>
-<li>
+<li >
 <a href="stránka_na_zuby_odkaz_3_kde_se_nacházíme.html">Kde se nacházíme</a>
-<li>
+<li >
 <a href="stránka_na_zuby_odkaz_4_kontakty.html">Kontakty</a>
+
+
 </ul>
-</div>				
+</div>
+				
 </nav>
 
-
- 
 <main>
 
-<p class ="text">
-<img id="obrazek" src="C:\TNPW1\stránka_na_zuby\obrazky\hory.jpg" alt="hory" width="300" height="300">
-Jsem tu pro váš zdravý úsměv.<br>
-Poskytujeme stomatologické ošetření dětem i dospělým.<br>
-Ceník poskytovaných služeb najdete u nás v ordinaci<br>
-Zubni lékař: MUDr. Miroslava Doležalová <br>
-Sestra: Blanka Kvapilová<br>
 
-</p>
+<table border="1" align="center">
+<caption>Ordinační doba</caption>
+<tbody>
 
-<br id= "br">
+<tr>
+<th scope="row">Pondělí</th>
+<td>9:00 - 18:30</td>
+
+</tr>
+<tr>
+<th scope="row">Úterý</th>
+<td>9:00 - 15:30</td>
+
+</tr>
+<tr>
+<th scope="row">Středa</th>
+<td>9:00 - 16:00</td>
+
+</tr>
+<tr>
+<th scope="row">Čtvrtek</th>
+<td>9:00 - 15:30</td>
+
+</tr>
+<tr>
+<th scope="row">Pátek</th>
+<td>8:00 - 13:30</td>
+
+</tr>
+<tr>
+<th scope="row">Sobota, Neděle</th>
+<td>Zavřeno</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+
+
 </main>
 
 
@@ -139,10 +176,10 @@ Sestra: Blanka Kvapilová<br>
 
 <ul>
 <li>MUDr. Miroslava Doležalová</li>
-<li>Adresa:Proftova 370, Poděbrady 290 01</li>
+<li>Adresa:Proftova 370, Poděbrady 290 01 </li>
 <li>telefon: 325 615 563 </li>
-<li>e-mail: kareldolezal@centrum.cz  </li>
-<li>V případě potíží pokud NEORDINUJEME se obraťte na: <a href="https://zubnipohotovost.cz/">zubnipohotovost.cz</a></li>
+<li>e-mail: mirka688@centrum.cz    </li>
+<li>V případě potíží pokud NEORDINUJEME se obraťte na: <a href="https://zubnipohotovost.cz/">zubnipohotovost.cz </a></li>
 <li>odkazy:<a href="https://www.zubarpodebrady.cz/wp-content/uploads/2015/12/IMG_6685.jpg">obrazek</a></li>
 <li><a href="https://www.firmy.cz/detail/12907918-mudr-miroslava-dolezalova-podebrady-iii.html">obrazek</a></li>
 <li>aktualizováno: 2.12.2022 </li>
@@ -150,8 +187,6 @@ Sestra: Blanka Kvapilová<br>
 </ul>
 
 </footer>
-
-
 </body>
 
 </html>
